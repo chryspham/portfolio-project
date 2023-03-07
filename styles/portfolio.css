@@ -9,11 +9,27 @@ h6 {
   color: #524f60;
 }
 
-p {
-  font-family: "EB Garamond", serif;
+h1 {
+  font-size: 96px;
 }
 
 .introduction {
   background-color: #e8eeff;
   text-align: center;
+}
+
+.introduction p {
+  font-family: "EB Garamond", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #524f60;
+  margin: 0;
+}
+
+.introduction h2 {
+  font-family: "EB Garamond", serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: #65617a;
+  line-height: 2;
 }
