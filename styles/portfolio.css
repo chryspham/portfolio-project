@@ -1,8 +1,19 @@
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  color: #524f60;
 }
 
 p {
   font-family: "EB Garamond", serif;
+}
+
+.introduction {
+  background-color: #e8eeff;
+  text-align: center;
 }
