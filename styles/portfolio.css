@@ -1,6 +1,7 @@
 :root {
   --primary-color: #e8eeff;
   --secondary-color: #524f60;
+  --button-color: #6c63ff;
   --heading-font: "Playfair Display", serif;
   --deafult-font: "EB Garamond", serif;
 }
@@ -20,6 +21,15 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
 body {
   font-family: var(--deafult-font);
 }
@@ -46,7 +56,16 @@ body {
 }
 
 .btn-primary {
-  background: #6c63ff;
+  background: var(--button-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  border: 1px solid var(--button-color);
+  color: var(--button-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
