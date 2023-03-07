@@ -19,6 +19,7 @@ h6 {
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -76,9 +77,21 @@ body {
   padding: 120px 60px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
   .project-info {
     padding: 0;
     text-align: center;
+  }
+
+  .introduction {
+    padding: 80px 20px;
   }
 }
