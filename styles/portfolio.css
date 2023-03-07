@@ -71,3 +71,14 @@ body {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.project-info {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-info {
+    padding: 0;
+    text-align: center;
+  }
+}
