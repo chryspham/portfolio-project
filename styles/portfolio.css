@@ -187,7 +187,8 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  h1,
+  content.h1 {
     font-size: 44px;
     line-height: 1.4;
   }
